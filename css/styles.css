@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.db { display: block; }
+
+.tal { text-align: left; }
+.tar { text-align: right; }
+.tac { text-align: center; }
+
+.fl { float: left; }
+.fr { float: right; }
+.cb { clear: both; }
+
+
+
+body {
+    background: #FDFDFD;
+    color: #373737;
+}
+
+
+
+#wrapper {
+    width: 890px;
+    margin: 30px auto 0;
+}
+
+header {
+    margin-bottom: 20px;
+}
+header h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 2.3em;
+}
+
+header #scoring {
+    padding-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+div.sidebar {
+    float: left;
+    background: #F5F5F5;
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid #595959;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.76);
+}
+
+#mainPanel {
+    width: 315px;
+    float: left;
+    margin: 0 5px;
+}
+
+
+
+#mainPanel canvas{
+    background: #fff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.76);
+    border: 1px solid #000;
+    margin: 0 auto;
+    display: block;
+}
+#mainPanel canvas:active {
+    top: 3px;
+    left: 3px;
+    position: relative;
+    box-shadow: none;
+}
+
+
+footer {
+    margin-top: 20px;
+}
