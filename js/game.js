@@ -283,7 +283,7 @@ function TetrisGame() {
         var fd = new FormData();
         fd.append("name", prompt("Game Over\nName für Highscore eingeben:", ""));
         fd.append("score", score);
-        xmlhttp.open("POST", "http://tetris.florianrusch.de/version2/highscore.php");
+        xmlhttp.open("POST", "http://tetris.florianrusch.de/highscore.php");
         xmlhttp.send(fd);
     };
 
